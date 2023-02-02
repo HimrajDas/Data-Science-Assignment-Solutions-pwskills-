@@ -1,0 +1,52 @@
+1. Guido van Rossum
+
+2. Object Oriented Programming, Functional Programming, Procedural Programming, Imperative Programming.
+
+3. Yes.
+
+4. .py 
+
+5. Interpreted.
+
+6. Functions - defined using the def keyword.
+   Classes - defined using the class keyword.
+   If-Else statements.
+   For and while loops.
+   Try-except blocks.
+
+7. sys.version
+   sys.version_info
+   platform.python_version()
+
+
+8. lambda.
+
+9. pip stands for installing packages and is a package manager for python or modules. It is used to install,      upgrade or remove packages in a very efficent manner.
+
+10. print(), str(), int(), float(), len(), range(), isupper(), islower(), isalnum(), sort(), max(), min(), abs() etc.
+
+11. In python there is no limit on the lenght of an identifier. However, according to PEP8 style guide it is recommended to keep it under 79 characters.
+
+
+12. Here are few benefits of using python:
+    1. Easy to learn and use.
+    2. Versatile.
+    3. Large community.
+    4. Large number of libraries.
+    5. Cross platform compatibility.
+    6. Good for prototyping.
+    7. High demand in the job market.
+
+
+13. In Python, memory management is handled automatically by the Python memory manager, which is a component of the Python interpreter. The memory manager is responsible for allocating and deallocating memory as needed by the Python objects in your program. Python uses a technique called reference counting to keep track of the number of references to an object in memory. When the number of references to an object drops to zero, the memory occupied by that object is automatically freed by the memory manager, through a process called garbage collection. Additionally, Python also has a cyclic garbage collector, which can detect and reclaim memory occupied by objects that are no longer in use, even if their reference count is non-zero. This makes it possible to reclaim memory occupied by circular references, which reference counting alone cannot handle.
+
+In summary, Python's memory management makes it easy for developers to write memory-efficient code without having to worry about manual memory management tasks, such as freeing memory explicitly.
+
+
+13. To install python on windows, follow the steps below:
+    1. Download the latest version of python from the official website.
+    2. Run the python installer and in the installer you will see a ADD TO PATH check box. Check that ADD TO PATH option and then run the installer.
+    3. You are ready to go.
+
+
+14. Yes, identation is required in python.
