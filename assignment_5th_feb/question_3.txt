@@ -1,0 +1,10 @@
+The main purpose of __init__() is to initialize the the object's attributes and states. It allows us to set the default values of our object's properties and prepare the object for use. The __init__() function also called as constructor. Example:-
+    
+    class Student:
+
+        def __init__(self, name, id):
+            self.name = name
+            self.id = id
+
+    student_1 = Student("Rahul", 103)
+    student_2 = Student("David", 105)

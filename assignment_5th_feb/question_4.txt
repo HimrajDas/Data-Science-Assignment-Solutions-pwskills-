@@ -1,0 +1,1 @@
+self is used to refer to that class. By using it we can access any attribute or method inside of that class.

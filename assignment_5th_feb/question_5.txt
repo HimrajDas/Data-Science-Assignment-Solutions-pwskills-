@@ -1,0 +1,82 @@
+Inheritance is a concept in OOP that allows a new class to be based on an existing class, inheriting its properties and methods. This allows for codes reuse, and can make it easier to add new features to an existing class, or to modify its behaviour.
+
+There are several types of Inheritance in OOP including:
+    1. Single Inheritance- a subclass inherits from a single superclass. Ex:-
+
+    class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        
+    def make_sound(self):
+        pass
+        
+    class Dog(Animal):
+        def make_sound(self):
+            return "Woof!"
+
+    
+    2. Multiple inheritance: a subclass inherits from multiple superclasses. Ex:-
+
+    class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        
+    class Swimmer:
+        def __init__(self, swim_speed):
+            self.swim_speed = swim_speed
+        
+    class Fish(Animal, Swimmer):
+        pass
+
+
+    3. Multi-level inheritance: a subclass inherits from a superclass, which in turn inherits from another superclass. Ex:-
+    class Animal:
+
+        def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        
+    class Mammal(Animal):
+        def __init__(self, name, species, number_of_legs):
+            Animal.__init__(self, name, species)
+            self.number_of_legs = number_of_legs
+        
+    class Dog(Mammal):
+        pass
+
+
+    4. Hierarchical inheritance: a single superclass has multiple subclasses. Ex:-
+    class Animal:
+        def __init__(self, name, species):
+            self.name = name
+            self.species = species
+            
+    class Dog(Animal):
+        pass
+
+    class Cat(Animal):
+        pass
+
+
+    5. Hybrid inheritance: a combination of multiple inheritance types. Ex:-
+    class Animal:
+        def __init__(self, name, species):
+            self.name = name
+            self.species = species
+            
+    class Swimmer:
+        def __init__(self, swim_speed):
+            self.swim_speed = swim_speed
+            
+    class Mammal(Animal):
+        def __init__(self, name, species, number_of_legs):
+            Animal.__init__(self, name, species)
+            self.number_of_legs = number_of_legs
+            
+    class Dolphin(Mammal, Swimmer):
+        pass
+
+
+
